@@ -1,0 +1,47 @@
+/**************************/
+/* BELOW 768px (Smaller tablets) */
+/**************************/
+@media (max-width: 48em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+@media (max-width: 34em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 40%;
+  }
+}
+
+/**************************/
+/* BELOW 448px (Phones) */
+/**************************/
+@media (max-width: 28em) {
+  .header-main-text {
+    font-size: 3rem;
+  }
+
+  .num-input {
+    width: 20rem;
+  }
+
+  .question-mark {
+    font-size: 5rem;
+  }
+
+  .main {
+    height: 55vh;
+  }
+
+  .btn,
+  .message,
+  .label-score,
+  .label-highscore {
+    font-size: 1.7rem;
+  }
+}
